@@ -1,11 +1,37 @@
-<h1> <img src="https://cdn-icons-png.flaticon.com/512/10786/10786755.png" style='width:50px'> Jogo de Ping-Pong </h1>
+<h1>
+  <img src="https://cdn-icons-png.flaticon.com/512/10786/10786755.png" width="40" alt="">
+  Jogo de Ping-Pong
+</h1>
 
-<h2>Tecnologias utilizadas:</h2>
+Jogo de ping-pong para navegador, em que você joga contra o computador.
 
-<span> <img src="https://static-00.iconduck.com/assets.00/javascript-js-icon-512x512-q3igwln6.png" style="width:20px"> </span> JavaScript <br>
-<span> <img src="https://static-00.iconduck.com/assets.00/file-type-css-icon-451x512-eftbqujz.png" style="width:20px"> </span> CSS <br>
-<span> <img src="https://static-00.iconduck.com/assets.00/file-type-html-icon-451x512-vzyw6pa7.png" style="width:20px"> </span> HTML <br>
+Feito durante o curso "Dev Samurai", para praticar HTML, CSS e JavaScript.
 
-<h2><img src="https://cdn-icons-png.flaticon.com/512/11476/11476497.png" style=width:50px> Motivações:</h2>
+## Funcionalidades
 
-<p>Jogo feito durante o percorrer do curso "Dev Samurai" com o intuito de praticar os conhecimentos vistos acerca de HTML, CSS e JavaScript.</p>
+- **Controle pelo mouse:** a raquete esquerda acompanha o movimento do mouse.
+- **Adversário automático:** a raquete direita persegue a bola.
+- **Placar:** mostra os pontos do jogador e do computador.
+- **Dificuldade crescente:** a cada ponto, a bola e a raquete do computador ficam mais rápidas.
+
+## Tecnologias
+
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20" alt=""> HTML (Canvas)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="20" alt=""> CSS
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" alt=""> JavaScript
+
+## Como executar
+
+O projeto não precisa de instalação. Clone o repositório:
+
+```bash
+git clone https://github.com/samuelsouza-dev/ping_pong.git
+```
+
+Depois, abra o arquivo `index.html` no navegador. O jogo começa imediatamente.
+
+## Limitações conhecidas
+
+- **Sem fim de partida:** o jogo não tem pontuação máxima, pausa nem reinício. Para recomeçar, recarregue a página.
+- **Tamanho da janela:** o campo é calculado ao abrir a página. Depois de redimensionar a janela, recarregue a página.
+- **Só com mouse:** não há controle por teclado nem por toque.
